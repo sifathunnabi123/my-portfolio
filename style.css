@@ -1,9 +1,44 @@
 body{
     font-family: nexa;
+    margin: 0;
 }
 body h1{
     font-size: 50px;
 }
+.middle-h1{
+    margin-bottom: 20px;
+}
 .highlight{
     color: orange;
+}
+.header{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.header img {
+    width: 100%;
+}
+.header p{
+    text-align: justify;
+}
+.bg{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url("top-banner.png")
+}
+.hire{
+    width: 150px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.hire:hover{
+    background-color: tomato;
+    color: white;
 }
