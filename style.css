@@ -29,16 +29,11 @@ body h1{
     background-image: url("top-banner.png")
 }
 .hire{
-    width: 150px;
-    background-color: orange;
-    color: white;
-    font-size: 18px;
-    padding: 10px;
-    border:none;
-    border-radius: 10px;
-    transition: all 1s ease;
-}
-.hire:hover{
+    text-decoration: none;
     background-color: tomato;
     color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    padding: 10px;
 }
