@@ -1,6 +1,9 @@
 body{
-    font-family: nexa;
+    font-family: Montserrat;
     margin: 0;
+}
+body p{
+    color: dimgray;
 }
 body h1{
     font-size: 50px;
@@ -22,6 +25,7 @@ body h1{
 }
 .header p{
     text-align: justify;
+    margin-bottom: 25px;
 }
 .bg{
     height: 500px;
@@ -36,4 +40,37 @@ body h1{
     border:none;
     border-radius: 10px;
     padding: 10px 20px;
+}
+.second_part{
+    background-image: url("dream-bg.png");
+    background-size: 6%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.experience-area{
+    height: 450px;
+    background-image: url("exp-bg.png");
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.border{
+    box-shadow: 10px 10px 30px gray;
+    padding-right: 15px;
+    border-radius: 7px;
+    height: 80%;
+}
+.border-style{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
 }
